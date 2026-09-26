@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 音频与转写产物（不入库）
+chunks/
+*.wav
+transcript*.txt
+
+# ASR 模型（体积大，请自行下载）
+sherpa-onnx-*/
+
+# 系统
+Thumbs.db
+.DS_Store
